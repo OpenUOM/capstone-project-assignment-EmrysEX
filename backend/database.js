@@ -134,10 +134,6 @@ const addStudent = async (id, name, age, hometown) => {
     });
 }
 
-// done
-
-// done
-
 const updateStudent = async (name, age, hometown, id) => {
     const sql = `UPDATE student SET name=?, age=?, hometown=? WHERE id=?`
     return new Promise((resolve, reject) => {
